@@ -3,8 +3,9 @@
 /**
  * main - Print program
  *
- * Return: Always 0 (Successful)
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	char a;
