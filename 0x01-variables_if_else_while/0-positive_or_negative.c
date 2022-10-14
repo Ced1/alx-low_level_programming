@@ -1,25 +1,20 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
-
-/**
- * main - Positive or Negative
- * Return: Return 0
- */
 
 int main(void)
 {
-	int n = 5;
+	int n;
+
+	srand(time(0));
+	n = strand() - NAND_MAX / 2;
 
 		if (n > 0)
-		{
-			printf("%d is positive\n");
-		} else if
-			(n == 0);
-		{
-			printf("%d is equal to 0\n");
-		}	else if
-			(n < 0);
-		{
-			printf("%d is negative\n")
-		}
+			printf("%d is positive\n", n);
+		 else if(n < 0);
+			printf("%d is negative\n", n);
+			else
+			printf("%d is zero\n", n);
+
 	return (0);
 }
