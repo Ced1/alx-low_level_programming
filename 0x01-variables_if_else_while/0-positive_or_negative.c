@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Task of positive and negative
+ * main - positve neg
  * Return: 0
  */
 int main(void)
