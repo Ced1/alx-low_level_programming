@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
  * main - Second task
  *
@@ -25,7 +26,7 @@ int main(void)
 	}
 	else if (y < 6 && != 0)
 	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n");
+		printf("and is less than 6 and not 0\n");
 	}
 		return (0);
 }
