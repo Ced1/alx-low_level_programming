@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - print number
+ * main - entry point
  * Return: 0 sucsses
  */
 int main(void)
