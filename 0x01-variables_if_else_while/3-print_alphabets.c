@@ -11,12 +11,9 @@ int main(void)
 	for (alph = 'a'; alph <= 'z'; alph++)
 		putchar(alph);
 
-	putchar('\n');
 
-	char ALPH;
-
-	for (ALPH = 'A'; ALPH <= 'Z'; ALPH++)
-		putchar(ALPH);
+	for (alph = 'A'; alph <= 'Z'; alph++)
+		putchar(alph);
 	putchar('\n');
 
 		return (0);
