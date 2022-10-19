@@ -1,13 +1,15 @@
 #include "main.h"
+
 /**
  * Main - Print _putchar
+ *
  * Return 0 - if successful
  */
 
 
 int main(void)
-{
 
+;{
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
