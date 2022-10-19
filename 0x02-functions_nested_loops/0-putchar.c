@@ -1,8 +1,20 @@
 #include <stdio.h>
+/**
+ * Main - Print _putchar
+ * Return 0 - if successful
+ */
+
 
 int main(void)
 {
-	putchar('_putchar\n');
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
 
 	return (0);
 }
