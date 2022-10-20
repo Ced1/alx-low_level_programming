@@ -15,7 +15,8 @@ n = i;
 	else
 		printf("%d is zero\n", n);
 }
-
+return (0);
+}
 
 /**
 * main - tests function that prints if integer is positive or negative
