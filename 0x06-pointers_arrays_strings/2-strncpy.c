@@ -1,25 +1,25 @@
 #include "main.h"
 
 /**
-* _strncat - conc two strings
+* _strncpy - function that copies a string
 * @src: string source
 * @dest: string destination
 * @n: int length
 * Return: pointer
 */
+char *_strncpy(char *dest, char *src, int n)
+{
+int i;
 
-char *_strncat(char *dest, char *src, int n)
+for (i = 0; i < n && *(src + i); i++)
 {
-int i, j;
-
-for (i = 0; dest[i] != '\0'; i++)
-{
-continue;
+*(dest + i) = *(src + i);
 }
-for (j = 0; src[j] != '\0' && j < n; j++)
+for (; i < n; i++)
 {
-dest[i + j] = src[j];
+*(dest + i) = '\0';
 }
-dest[i + j] = '\0';
 return (dest);
+
 }
+
